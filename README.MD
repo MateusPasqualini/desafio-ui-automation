@@ -1,4 +1,4 @@
-##Planejamento
+## Planejamento
 |  Testes de aceitação |
 |:--------------------:|
 | Tabelas de Decisões  |
@@ -33,7 +33,7 @@
 | Saída                         | Valor inválido  | Valor Inválido   | Valor Obrigatório | Simulação efetuada |
 |-------------------------------|-----------------|------------------|-------------------|--------------------|
 
-##Cenários desenvolvidos
+## Cenários desenvolvidos
 ```
 Cenário 1 
 Titulo:  Simulação - Efetuar Simulação Pessoa física Mensal
@@ -160,11 +160,11 @@ pronto [localhost:4040](http://localhost:4040/index.html)
 É possível alterar algumas configurações parametrizadas da suite de testes 
 através do arquivo de configuração do testng (testng.xml).
 - Habilitar/Desabilitar teste: Para habilitar ou desabilitar os testes basta mudar a flag
-"enabled" que se encontra na tag < test >. true para habilitar e false para desabilitar
+"enabled" que se encontra na tag < test>. true para habilitar e false para desabilitar
 
 - Paralelização: é possível alterar o tipo de parelização e o número de threads que 
 irão rodar os testes. Para alterar o tipo de parelilzação mude o atributo "parallel" e
- para alterar o número de threads mude o atributo "thread-count" dentro da tag < test >
+ para alterar o número de threads mude o atributo "thread-count" dentro da tag < test>
 
 Por default a opção de navegador headless está desativado. Para poder ativar é necessário 
 acessar a classe OptionsManager e descomentar* as linhas de códigos
