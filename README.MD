@@ -164,7 +164,8 @@ através do arquivo de configuração do testng (testng.xml).
 
 - Paralelização: é possível alterar o tipo de parelização e o número de threads que 
 irão rodar os testes. Para alterar o tipo de parelilzação mude o atributo "parallel" e
- para alterar o número de threads mude o atributo "thread-count" dentro da tag < test>
+ para alterar o número de threads mude o atributo "thread-count" dentro da tag
+   < test>
 
 Por default a opção de navegador headless está desativado. Para poder ativar é necessário 
 acessar a classe OptionsManager e descomentar* as linhas de códigos
@@ -178,3 +179,4 @@ Para o FireFox:
 *Para descomentar basta remover as barras no ínicio da linha
 
 ## Link para Teste automatizado da API disponibilizada
+[Desafio-api-automation](https://github.com/MateusPasqualini/desafio-api-automation)
