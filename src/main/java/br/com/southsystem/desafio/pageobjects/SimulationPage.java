@@ -67,13 +67,13 @@ public class SimulationPage extends BasePage {
     public SimulationPage fillFormFields(TestDataObject data) {
         waitForVisibilityOf(applicationValue).sendKeys(data.getApplyValue());
         waitForVisibilityOf(investValue).sendKeys(data.getInvestValue());
-        waitForVisibilityOf(savePeriod).sendKeys(data.getPeriodValue());
+        waitForVisibilityOf(savePeriod).sendKeys(String.valueOf(data.getPeriodValue()));
         return this;
     }
 
-    public SimulationPage selectPeriodType(String period) {
+    public SimulationPage selectPeriodToYears() {
         waitForClickabilityOf(dropDown).click();
-        waitForClickabilityOf(By.xpath("//a[contains(text(), \"" + period + "\")]")).click();
+        waitForClickabilityOf(By.xpath("//a[contains(text(), \"Anos\")]")).click();
         return this;
     }
 

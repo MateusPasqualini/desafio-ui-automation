@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite" >
-    <test name="PaymentTests.chrome" parallel="methods" thread-count="2">
+<suite name="Suite">
+
+    <test enabled="true" name="PaymentTests.chrome" parallel="methods" thread-count="2">
         <parameter name="driverClass" value="ChromeDriver"/>
         <parameter name="browser" value="chrome"/>
         <classes>
             <class name="br.com.southsystem.desafio.aceitacao.AceitacaoTest"/>
         </classes>
     </test> <!-- First Test -->
-<!--        <test name="PaymentTests.firefox">-->
-<!--            <parameter name="driverClass" value="FirefoxDriver"/>-->
-<!--            <parameter name="browser" value="firefox"/>-->
-<!--            <classes>-->
-<!--                <class name="br.com.southsystem.desafio.aceitacao.AceitacaoTest"/>-->
-<!--            </classes>-->
-<!--        </test> &lt;!&ndash; Second Test &ndash;&gt;-->
+
+    <test enabled="false" name="PaymentTests.firefox" parallel="methods" thread-count="2">
+        <parameter name="driverClass" value="FirefoxDriver"/>
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="br.com.southsystem.desafio.aceitacao.AceitacaoTest"/>
+        </classes>
+    </test> <!-- Second Test -->
 </suite> <!-- Suite -->

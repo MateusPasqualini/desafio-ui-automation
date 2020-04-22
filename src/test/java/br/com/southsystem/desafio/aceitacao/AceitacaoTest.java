@@ -18,7 +18,8 @@ public class AceitacaoTest extends TestBase {
                 selectPerson().
                 fillFormFields(formData).
                 submitSimulationForm();
-        Assert.assertEquals(resultPage.getPeriod(), "Em 5 meses você terá guardado");
+        Assert.assertEquals(resultPage.getPeriod(), "Em " + formData.getPeriodValue() + " meses você terá guardado");
+        Assert.assertEquals(resultPage.getSavings(), "R$ " + formData.getExpectedSavings());
     }
 
     @Test(dataProvider = "formData", dataProviderClass = TestDataProvider.class)
@@ -29,7 +30,8 @@ public class AceitacaoTest extends TestBase {
                 selectCompany().
                 fillFormFields(formData).
                 submitSimulationForm();
-        Assert.assertEquals(resultPage.getPeriod(), "Em 5 meses você terá guardado");
+        Assert.assertEquals(resultPage.getPeriod(), "Em " + formData.getPeriodValue() + " meses você terá guardado");
+        Assert.assertEquals(resultPage.getSavings(), "R$ " + formData.getExpectedSavings());
     }
 
     @Test(dataProvider = "formData", dataProviderClass = TestDataProvider.class)
@@ -38,10 +40,10 @@ public class AceitacaoTest extends TestBase {
         ResultPage resultPage = GeneratePage.simulationPage().
                 goToSimulationPage().
                 selectPerson().
-                selectPeriodType("Anos").
+                selectPeriodToYears().
                 fillFormFields(formData).
                 submitSimulationForm();
-        Assert.assertEquals(resultPage.getPeriod(), "Em 60 meses você terá guardado");
+        Assert.assertEquals(resultPage.getPeriod(), "Em " + formData.getPeriodValue() * 12 + " meses você terá guardado");
     }
 
     @Test(dataProvider = "formData", dataProviderClass = TestDataProvider.class)
@@ -50,9 +52,9 @@ public class AceitacaoTest extends TestBase {
         ResultPage resultPage = GeneratePage.simulationPage().
                 goToSimulationPage().
                 selectCompany().
-                selectPeriodType("Anos").
+                selectPeriodToYears().
                 fillFormFields(formData).
                 submitSimulationForm();
-        Assert.assertEquals(resultPage.getPeriod(), "Em 60 meses você terá guardado");
+        Assert.assertEquals(resultPage.getPeriod(), "Em " + formData.getPeriodValue() * 12 + " meses você terá guardado");
     }
 }

@@ -12,12 +12,13 @@ public class OptionsManager {
         throw new IllegalStateException("OptionsManager class");
     }
 
+
     public static ChromeOptions getChromeOptions() {
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--start-maximized");
         chromeOptions.addArguments("--ignore-certificate-errors");
         chromeOptions.addArguments("--disable-popup-blocking");
-        chromeOptions.addArguments("--headless");
+//        chromeOptions.addArguments("--headless");
         chromeOptions.addArguments("--log-level=3");
         chromeOptions.addArguments("--silent");
         return chromeOptions;
@@ -26,7 +27,7 @@ public class OptionsManager {
     public static FirefoxOptions getFirefoxOptions () {
         FirefoxOptions geckoOptions = new FirefoxOptions();
         FirefoxProfile profile = new FirefoxProfile();
-        geckoOptions.addArguments("--headless");
+//        geckoOptions.addArguments("--headless");
         geckoOptions.setCapability("marionette", true);
         geckoOptions.setLogLevel(FirefoxDriverLogLevel.ERROR);
         profile.setAcceptUntrustedCertificates(true);

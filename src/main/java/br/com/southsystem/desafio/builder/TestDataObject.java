@@ -12,5 +12,6 @@ import lombok.RequiredArgsConstructor;
 public class TestDataObject {
     private String applyValue;
     private String investValue;
-    private String periodValue;
+    private Integer periodValue;
+    private Integer expectedSavings;
 }

@@ -21,4 +21,7 @@ public class ResultPage extends BasePage {
         return waitForVisibilityOf(period).getText();
     }
 
+    public String getSavings(){
+        return waitForVisibilityOf(savings).getText();
+    }
 }
