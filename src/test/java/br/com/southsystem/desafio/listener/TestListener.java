@@ -1,6 +1,6 @@
 package br.com.southsystem.desafio.listener;
 
-import br.com.southsystem.desafio.TestBase;
+import br.com.southsystem.desafio.testbase.TestBase;
 import io.qameta.allure.Attachment;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;

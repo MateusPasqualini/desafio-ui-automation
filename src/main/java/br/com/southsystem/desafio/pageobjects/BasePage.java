@@ -3,7 +3,6 @@ package br.com.southsystem.desafio.pageobjects;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BasePage {
@@ -30,11 +29,6 @@ public class BasePage {
     public WebElement waitForClickabilityOf(By elementBy) {
         WebElement element = driver.findElement(elementBy);
         wait.until(driverLambda -> element.isDisplayed() && element.isEnabled());
-        return element;
-    }
-
-    public WebElement waitForInvisibilityOf(WebElement element) {
-        wait.until(ExpectedConditions.invisibilityOf(element));
         return element;
     }
 }

@@ -1,6 +1,6 @@
 package br.com.southsystem.desafio.aceitacao;
 
-import br.com.southsystem.desafio.TestBase;
+import br.com.southsystem.desafio.testbase.TestBase;
 import br.com.southsystem.desafio.builder.TestDataObject;
 import br.com.southsystem.desafio.datadriven.TestDataProvider;
 import br.com.southsystem.desafio.pageobjects.GeneratePage;

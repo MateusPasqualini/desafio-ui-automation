@@ -1,4 +1,4 @@
-package br.com.southsystem.desafio;
+package br.com.southsystem.desafio.testbase;
 
 import br.com.southsystem.desafio.listener.TestListener;
 import io.github.bonigarcia.wdm.DriverManagerType;
