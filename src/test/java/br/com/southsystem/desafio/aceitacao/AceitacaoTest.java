@@ -1,7 +1,7 @@
 package br.com.southsystem.desafio.aceitacao;
 
 import br.com.southsystem.desafio.testbase.TestBase;
-import br.com.southsystem.desafio.builder.TestDataObject;
+import br.com.southsystem.desafio.builder.TestData;
 import br.com.southsystem.desafio.datadriven.TestDataProvider;
 import br.com.southsystem.desafio.pageobjects.GeneratePage;
 import br.com.southsystem.desafio.pageobjects.ResultPage;
@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 public class AceitacaoTest extends TestBase {
 
     @Test(dataProvider = "formData", dataProviderClass = TestDataProvider.class)
-    public void deveEfetuarSimulacaoPFMensal(TestDataObject formData) {
+    public void deveEfetuarSimulacaoPFMensal(TestData formData) {
 
         ResultPage resultPage = GeneratePage.simulationPage().
                 goToSimulationPage().
@@ -23,7 +23,7 @@ public class AceitacaoTest extends TestBase {
     }
 
     @Test(dataProvider = "formData", dataProviderClass = TestDataProvider.class)
-    public void deveEfetuarSimulacaoPJMensal(TestDataObject formData) {
+    public void deveEfetuarSimulacaoPJMensal(TestData formData) {
 
         ResultPage resultPage = GeneratePage.simulationPage().
                 goToSimulationPage().
@@ -35,7 +35,7 @@ public class AceitacaoTest extends TestBase {
     }
 
     @Test(dataProvider = "formData", dataProviderClass = TestDataProvider.class)
-    public void deveEfetuarSimulacaoPFAnual(TestDataObject formData) {
+    public void deveEfetuarSimulacaoPFAnual(TestData formData) {
 
         ResultPage resultPage = GeneratePage.simulationPage().
                 goToSimulationPage().
@@ -47,7 +47,7 @@ public class AceitacaoTest extends TestBase {
     }
 
     @Test(dataProvider = "formData", dataProviderClass = TestDataProvider.class)
-    public void deveEfetuarSimulacaoPJAnual(TestDataObject formData) {
+    public void deveEfetuarSimulacaoPJAnual(TestData formData) {
 
         ResultPage resultPage = GeneratePage.simulationPage().
                 goToSimulationPage().

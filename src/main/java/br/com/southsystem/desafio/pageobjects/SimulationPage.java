@@ -1,6 +1,6 @@
 package br.com.southsystem.desafio.pageobjects;
 
-import br.com.southsystem.desafio.builder.TestDataObject;
+import br.com.southsystem.desafio.builder.TestData;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -64,7 +64,7 @@ public class SimulationPage extends BasePage {
         return this;
     }
 
-    public SimulationPage fillFormFields(TestDataObject data) {
+    public SimulationPage fillFormFields(TestData data) {
         waitForVisibilityOf(applicationValue).sendKeys(data.getApplyValue());
         waitForVisibilityOf(investValue).sendKeys(data.getInvestValue());
         waitForVisibilityOf(savePeriod).sendKeys(String.valueOf(data.getPeriodValue()));

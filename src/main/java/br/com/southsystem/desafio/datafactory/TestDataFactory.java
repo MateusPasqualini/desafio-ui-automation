@@ -1,11 +1,11 @@
 package br.com.southsystem.desafio.datafactory;
 
-import br.com.southsystem.desafio.builder.TestDataObject;
+import br.com.southsystem.desafio.builder.TestData;
 
 public class TestDataFactory {
 
-    public TestDataObject createData() {
-        return TestDataObject.builder().
+    public TestData createData() {
+        return TestData.builder().
                 applyValue("2500").
                 investValue("2500").
                 periodValue(5).

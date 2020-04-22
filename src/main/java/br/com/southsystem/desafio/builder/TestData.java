@@ -9,7 +9,7 @@ import lombok.RequiredArgsConstructor;
 @Data
 @AllArgsConstructor
 @RequiredArgsConstructor
-public class TestDataObject {
+public class TestData {
     private String applyValue;
     private String investValue;
     private Integer periodValue;
