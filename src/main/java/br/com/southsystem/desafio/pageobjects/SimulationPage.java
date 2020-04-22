@@ -1,5 +1,6 @@
 package br.com.southsystem.desafio.pageobjects;
 
+import br.com.southsystem.desafio.builder.TestDataObject;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -21,7 +22,7 @@ public class SimulationPage extends BasePage {
     private WebElement applicationValue;
 
     @FindBy(how = How.ID, using = "valorInvestir")
-    private WebElement saveValue;
+    private WebElement investValue;
 
     @FindBy(how = How.ID, using = "tempo")
     private WebElement savePeriod;
@@ -63,14 +64,14 @@ public class SimulationPage extends BasePage {
         return this;
     }
 
-    public SimulationPage fillFormFields(String value, String valueSave, String savePeriodValue) {
-        waitForVisibilityOf(applicationValue).sendKeys(value);
-        waitForVisibilityOf(saveValue).sendKeys(valueSave);
-        waitForVisibilityOf(savePeriod).sendKeys(savePeriodValue);
+    public SimulationPage fillFormFields(TestDataObject data) {
+        waitForVisibilityOf(applicationValue).sendKeys(data.getApplyValue());
+        waitForVisibilityOf(investValue).sendKeys(data.getInvestValue());
+        waitForVisibilityOf(savePeriod).sendKeys(data.getPeriodValue());
         return this;
     }
 
-    public SimulationPage selectPeriodType(String period) throws InterruptedException {
+    public SimulationPage selectPeriodType(String period) {
         waitForClickabilityOf(dropDown).click();
         waitForClickabilityOf(By.xpath("//a[contains(text(), \"" + period + "\")]")).click();
         return this;
