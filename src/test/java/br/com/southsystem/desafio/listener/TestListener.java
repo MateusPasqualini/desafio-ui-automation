@@ -17,7 +17,7 @@ public class TestListener extends TestListenerAdapter {
 
 
     @Attachment(value = "generate Screenshot", type = "image")
-    public byte[] saveScreenshotPNG(WebDriver driver) {
+    private byte[] saveScreenshotPNG(WebDriver driver) {
         return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
     }
 

@@ -32,7 +32,7 @@ public class TestBase {
         }
     }
 
-    @AfterMethod(description = "Quitting drivers and removing ThreadLocal varibles")
+    @AfterMethod(description = "Quitting drivers and removing ThreadLocal variables")
     public void teardown() {
         synchronized (lock) {
             TLDriverFactory.getTLDriver().quit();
