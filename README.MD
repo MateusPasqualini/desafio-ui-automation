@@ -64,7 +64,8 @@ Pré-condição: Selecionar o radial “Para você” e Selecionar a opção “
 Dado que como pessoa física eu queira simular uma poupança Sicredi
 Quando aplico um valor entre de R$20,00 e R$9999999.00 
 E  insiro o número de meses que desejo guardar
-Então deve ser efetuada a simulação e deve exibir o valor acumulado de acordo com os anos inseridos, convertidos para meses
+Então deve ser efetuada a simulação e deve exibir o valor acumulado de acordo com os anos inseridos,
+ convertidos para meses
 
 Reprodução:
 Selecionar opção “Para você”
@@ -72,7 +73,9 @@ No Campo: “Qual o valor que você quer aplicar?” inserir um valor entre  R$2
 No Campo: “Quanto você quer poupar todo mês?” inserir um valor entre R$20,00 e R$9999999.00 
 No Campo: “Por quanto tempo você quer poupar?” inserir um valor entre 1 e 999
 Clicar no botão “Simular
-Resultado Esperado: Deve carregar uma nova página exibindo o valor acumulado de acordo com o número de anos inseridos, convertidos para meses e uma lista com outras opções de simulações exibindo tempo em meses e valores possíveis.
+Resultado Esperado: Deve carregar uma nova página exibindo o valor acumulado de acordo c
+om o número de anos inseridos, convertidos para meses e uma lista com outras opções de simulações exibindo 
+tempo em meses e valores possíveis.
 
 Cenário 3
 Titulo:  Simulação - Efetuar Simulação Pessoa Jurídica Mensal
@@ -88,7 +91,8 @@ No Campo: “Qual o valor que você quer aplicar?” inserir um valor entre  R$2
 No Campo: “Quanto você quer poupar todo mês?” inserir um valor entre R$20,00 e R$9999999.00 
 No Campo: “Por quanto tempo você quer poupar?” inserir um valor entre 1 e 999
 Clicar no botão “Simular
-Resultado Esperado: Deve carregar uma nova página exibindo o valor acumulado de acordo com o número de meses inseridos, e uma lista com outras opções de simulações exibindo tempo em meses e valores possíveis.
+Resultado Esperado: Deve carregar uma nova página exibindo o valor acumulado de acordo com o número de meses
+ inseridos, e uma lista com outras opções de simulações exibindo tempo em meses e valores possíveis.
 
 Cenário 4
 Titulo:  Simulação - Efetuar Simulação Pessoa Jurídica Anual
@@ -97,7 +101,8 @@ Pré-condição: Selecionar o radial “Para sua empresa ou agronegócio” e Se
 Dado que como pessoa jurídica eu queira simular uma poupança Sicredi
 Quando aplico um valor entre de R$20,00 e R$9999999.00 
 E  insiro o número de meses que desejo guardar
-Então deve ser efetuada a simulação e deve exibir o valor acumulado de acordo com os anos inseridos, convertidos para meses
+Então deve ser efetuada a simulação e deve exibir o valor acumulado de acordo com os anos inseridos, 
+convertidos para meses
 
 Reprodução:
 Selecionar opção “Para você”
@@ -105,7 +110,8 @@ No Campo: “Qual o valor que você quer aplicar?” inserir um valor entre  R$2
 No Campo: “Quanto você quer poupar todo mês?” inserir um valor entre R$20,00 e R$9999999.00 
 No Campo: “Por quanto tempo você quer poupar?” inserir um valor entre 1 e 999
 Clicar no botão “Simular
-Resultado Esperado: Deve carregar uma nova página exibindo o valor acumulado de acordo com o número de anos inseridos, convertidos para meses e uma lista com outras opções de simulações exibindo tempo em meses e valores possíveis.
+Resultado Esperado: Deve carregar uma nova página exibindo o valor acumulado de acordo com o número de anos inseridos,
+ convertidos para meses e uma lista com outras opções de simulações exibindo tempo em meses e valores possíveis.
 
 Cenário 5
 Titulo:  Simulação - Valor de aplicação abaixo de R$20,00
