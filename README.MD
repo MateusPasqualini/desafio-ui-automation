@@ -51,11 +51,11 @@ E  insiro o número de meses que desejo guardar
 Então deve ser efetuada a simulação e deve exibir o valor acumulado de acordo com os meses inseridos
 
 Reprodução:
-Selecionar opção “Para você”
-No Campo: “Qual o valor que você quer aplicar?” inserir um valor entre  R$20,00 e R$9999999.00 
-No Campo: “Quanto você quer poupar todo mês?” inserir um valor entre R$20,00 e R$9999999.00 
-No Campo: “Por quanto tempo você quer poupar?” inserir um valor entre 1 e 999
-Clicar no botão “Simular
+    1. Selecionar opção “Para você”
+    2. No Campo: “Qual o valor que você quer aplicar?” inserir um valor entre  R$20,00 e R$9999999.00 
+    3. No Campo: “Quanto você quer poupar todo mês?” inserir um valor entre R$20,00 e R$9999999.00 
+    4. No Campo: “Por quanto tempo você quer poupar?” inserir um valor entre 1 e 999
+    5. Clicar no botão “Simular
 Resultado Esperado: Deve carregar uma nova página exibindo o valor acumulado de acordo com o número de meses
 inseridos, e uma lista com outras opções de simulações exibindo tempo em meses e valores possíveis.
 
@@ -70,11 +70,11 @@ Então deve ser efetuada a simulação e deve exibir o valor acumulado de acordo
 inseridos, convertidos para meses
 
 Reprodução:
-Selecionar opção “Para você”
-No Campo: “Qual o valor que você quer aplicar?” inserir um valor entre  R$20,00 e R$9999999.00 
-No Campo: “Quanto você quer poupar todo mês?” inserir um valor entre R$20,00 e R$9999999.00 
-No Campo: “Por quanto tempo você quer poupar?” inserir um valor entre 1 e 999
-Clicar no botão “Simular
+    1. Selecionar opção “Para você”
+    2. No Campo: “Qual o valor que você quer aplicar?” inserir um valor entre  R$20,00 e R$9999999.00 
+    3. No Campo: “Quanto você quer poupar todo mês?” inserir um valor entre R$20,00 e R$9999999.00 
+    4. No Campo: “Por quanto tempo você quer poupar?” inserir um valor entre 1 e 999
+    5. Clicar no botão “Simular
 Resultado Esperado: Deve carregar uma nova página exibindo o valor acumulado de acordo c
 om o número de anos inseridos, convertidos para meses e uma lista com outras opções de simulações exibindo 
 tempo em meses e valores possíveis.
@@ -88,11 +88,11 @@ Quando aplico um valor entre de R$20,00 e R$9999999.00
 E  insiro o número de meses que desejo guardar
 Então deve ser efetuada a simulação e deve exibir o valor acumulado de acordo com os meses inseridos
 Reprodução:
-Selecionar opção “Para você”
-No Campo: “Qual o valor que você quer aplicar?” inserir um valor entre  R$20,00 e R$9999999.00 
-No Campo: “Quanto você quer poupar todo mês?” inserir um valor entre R$20,00 e R$9999999.00 
-No Campo: “Por quanto tempo você quer poupar?” inserir um valor entre 1 e 999
-Clicar no botão “Simular
+    1. Selecionar opção “Para você”
+    2. No Campo: “Qual o valor que você quer aplicar?” inserir um valor entre  R$20,00 e R$9999999.00 
+    3. No Campo: “Quanto você quer poupar todo mês?” inserir um valor entre R$20,00 e R$9999999.00 
+    4. No Campo: “Por quanto tempo você quer poupar?” inserir um valor entre 1 e 999
+    5. Clicar no botão “Simular
 Resultado Esperado: Deve carregar uma nova página exibindo o valor acumulado de acordo com o número de meses
 inseridos, e uma lista com outras opções de simulações exibindo tempo em meses e valores possíveis.
 
@@ -107,11 +107,11 @@ Então deve ser efetuada a simulação e deve exibir o valor acumulado de acordo
 convertidos para meses
 
 Reprodução:
-Selecionar opção “Para você”
-No Campo: “Qual o valor que você quer aplicar?” inserir um valor entre  R$20,00 e R$9999999.00 
-No Campo: “Quanto você quer poupar todo mês?” inserir um valor entre R$20,00 e R$9999999.00 
-No Campo: “Por quanto tempo você quer poupar?” inserir um valor entre 1 e 999
-Clicar no botão “Simular
+    1. Selecionar opção “Para você”
+    2. No Campo: “Qual o valor que você quer aplicar?” inserir um valor entre  R$20,00 e R$9999999.00 
+    3. No Campo: “Quanto você quer poupar todo mês?” inserir um valor entre R$20,00 e R$9999999.00 
+    4. No Campo: “Por quanto tempo você quer poupar?” inserir um valor entre 1 e 999
+    5. Clicar no botão “Simular
 Resultado Esperado: Deve carregar uma nova página exibindo o valor acumulado de acordo com o número de anos 
 inseridos, convertidos para meses e uma lista com outras opções de simulações exibindo tempo em meses e 
 valores possíveis.
@@ -125,8 +125,8 @@ Quando aplico um valor abaixo de R$20,00
 Então deve ser exibido uma mensagem de erro informando: “Valor mínimo de 20.00”
 
 Reprodução:
-No Campo: “Qual o valor que você quer aplicar?” inserir um valor abaixo de R$20,00
-desfazer a seleção do campo, clicando tab
+    1. No Campo: “Qual o valor que você quer aplicar?” inserir um valor abaixo de R$20,00
+    2. desfazer a seleção do campo, clicando tab
 Resultado Esperado: deve exibir uma mensagem de erro informando que o valor mínimo é de R$20,00
 
 Cenário 6
@@ -138,8 +138,8 @@ Quando aplico um valor de aplicação mensal abaixo de R$20,00
 Então deve ser exibido uma mensagem de erro informando: “Valor mínimo de 20.00”
 
 Reprodução:
-No Campo: “Qual o valor que você quer aplicar?” inserir um valor abaixo de R$20,00
-desfazer a seleção do campo, clicando tab
+    1. No Campo: “Qual o valor que você quer aplicar?” inserir um valor abaixo de R$20,00
+    2. desfazer a seleção do campo, clicando tab
 Resultado Esperado: deve exibir uma mensagem de erro informando que o valor mínimo é de R$20,00
 
 ```
