@@ -6,28 +6,28 @@
 | Perfil PF Mensal              | Caso de Teste 1 | Caso de Teste 2  | Caso de Teste 3   | Caso de Teste 4    |
 |-------------------------------|-----------------|------------------|-------------------|--------------------|
 | Entradas                      |        1        |         2        |         3         |          4         |
-| Valor minimo >20 para aplicão |       não       |        Sim       |        Sim        |         Sim        |
+| Valor minimo >20 para aplicação |       não       |        Sim       |        Sim        |         Sim        |
 | Valor minimo >20 para poupar  |        x        |        Não       |        Sim        |         Sim        |
 | Tempo de poupança             |        x        |         x        |        Não        |         Sim        |
 | Saída                         | Valor inválido  | Valor Inválido   | Valor Obrigatório | Simulação efetuada |
 |-------------------------------|-----------------|------------------|-------------------|--------------------|
 | Perfil PJ Mensal              | Caso de Teste 1 | Caso de Teste 2  | Caso de Teste 3   | Caso de Teste 4    |
 | Entradas                      |        1        |         2        |         3         |          4         |
-| Valor minimo >20 para aplicão |       não       |        Sim       |        Sim        |         Sim        |
+| Valor minimo >20 para aplicação |       não       |        Sim       |        Sim        |         Sim        |
 | Valor minimo >20 para poupar  |        x        |        Não       |        Sim        |         Sim        |
 | Tempo de poupança             |        x        |         x        |        Não        |         Sim        |
 | Saída                         | Valor inválido  | Valor Inválido   | Valor Obrigatório | Simulação efetuada |
 |-------------------------------|-----------------|------------------|-------------------|--------------------|
 | Perfil PF Anual               | Caso de Teste 1 | Caso de Teste 2  | Caso de Teste 3   | Caso de Teste 4    |
 | Entradas                      |        1        |         2        |         3         |          4         |
-| Valor minimo >20 para aplicão |       não       |        Sim       |        Sim        |         Sim        |
+| Valor minimo >20 para aplicaão |       não       |        Sim       |        Sim        |         Sim        |
 | Valor minimo >20 para poupar  |        x        |        Não       |        Sim        |         Sim        |
 | Tempo de poupança             |        x        |         x        |        Não        |         Sim        |
 | Saída                         | Valor inválido  | Valor Inválido   | Valor Obrigatório | Simulação efetuada |
 |-------------------------------|-----------------|------------------|-------------------|--------------------|
 | Perfil PJ Anual               | Caso de Teste 1 | Caso de Teste 2  | Caso de Teste 3   | Caso de Teste 4    |
 | Entradas                      |        1        |         2        |         3         |          4         |
-| Valor minimo >20 para aplicão |       não       |        Sim       |        Sim        |         Sim        |
+| Valor minimo >20 para aplicãção |       não       |        Sim       |        Sim        |         Sim        |
 | Valor minimo >20 para poupar  |        x        |        Não       |        Sim        |         Sim        |
 | Tempo de poupança             |        x        |         x        |        Não        |         Sim        |
 | Saída                         | Valor inválido  | Valor Inválido   | Valor Obrigatório | Simulação efetuada |
