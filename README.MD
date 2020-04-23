@@ -111,8 +111,8 @@ No Campo: “Qual o valor que você quer aplicar?” inserir um valor entre  R$2
 No Campo: “Quanto você quer poupar todo mês?” inserir um valor entre R$20,00 e R$9999999.00 
 No Campo: “Por quanto tempo você quer poupar?” inserir um valor entre 1 e 999
 Clicar no botão “Simular
-Resultado Esperado: Deve carregar uma nova página exibindo o valor acumulado de acordo com o número de anos inseridos,
-convertidos para meses e uma lista com outras opções de simulações exibindo tempo em meses e valores possíveis.
+Resultado Esperado: Deve carregar uma nova página exibindo o valor acumulado de acordo com o número de anos 
+inseridos, convertidos para meses e uma lista com outras opções de simulações exibindo tempo em meses e valores possíveis.
 
 Cenário 5
 Titulo:  Simulação - Valor de aplicação abaixo de R$20,00
